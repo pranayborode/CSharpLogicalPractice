@@ -49,6 +49,7 @@
     <Compile Include="BasicIfElse\ElectricityBill.cs" />
     <Compile Include="BasicIfElse\EvenOdd.cs" />
     <Compile Include="BasicIfElse\NumOfDaysSwitch.cs" />
+    <Compile Include="BasicLogical\FibonacciUsingYield.cs" />
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
     <Compile Include="Program.cs" />
