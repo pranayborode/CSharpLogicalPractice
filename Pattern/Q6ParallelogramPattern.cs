@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace LogicalPractice.Pattern
 {
-	internal class Q3RightAngleTriangleReflection
+	internal class Q6ParallelogramPattern
 	{
 		public static void PrintPattern(int size)
 		{
-			for (int i = 1; i <= size; i++)
+			for (int row = 1; row <= size; row++)
 			{
-				for (int j = 1; j <= size - i; j++)
+				for (int col = 1; col <= row; col++)
 				{
 					Console.Write(" ");
 				}
-				for (int k = 1; k <= i; k++)
+				for (int col = 1; col <= size; col++)
 				{
 					Console.Write("*");
 				}

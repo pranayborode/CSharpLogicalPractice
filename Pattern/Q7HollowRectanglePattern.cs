@@ -6,28 +6,32 @@ using System.Threading.Tasks;
 
 namespace LogicalPractice.Pattern
 {
-	internal class Q3RightAngleTriangleReflection
+	internal class Q7HollowRectanglePattern
 	{
 		public static void PrintPattern(int size)
 		{
-			for (int i = 1; i <= size; i++)
+			for (int i = 0; i < size; i++)
 			{
-				for (int j = 1; j <= size - i; j++)
-				{
-					Console.Write(" ");
-				}
-				for (int k = 1; k <= i; k++)
-				{
-					Console.Write("*");
-				}
 
+				for (int j = 0; j < size; j++)
+				{
+					if (i == 0 || j == 0 || i == size - 1 || j == size - 1)
+					{
+						Console.Write("* ");
+					}
+					else
+					{
+						Console.Write("  ");
+					}
+				}
 				Console.WriteLine();
+
 			}
 		}
 
 		//static void Main(string[] args)
 		//{
-		//	PrintPattern(5);
+		//	PrintPattern(7);
 		//}
 	}
 }

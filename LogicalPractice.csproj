@@ -53,10 +53,17 @@
     <Compile Include="BasicLogical\FibonacciUsingYield.cs" />
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
+    <Compile Include="Logical\CountDigits.cs" />
+    <Compile Include="Logical\PrintAllAlphabets.cs" />
+    <Compile Include="Logical\SumOfAllOddNo.cs" />
+    <Compile Include="Logical\SumOfEvenNo.cs" />
     <Compile Include="Pattern\Q1RightAngleTriangle.cs" />
     <Compile Include="Pattern\Q2InvertedRightAngleTriangle.cs" />
     <Compile Include="Pattern\Q3RightAngleTriangleReflection.cs" />
     <Compile Include="Pattern\Q4DiamondPattern.cs" />
+    <Compile Include="Pattern\Q5PyramidPattern.cs" />
+    <Compile Include="Pattern\Q6ParallelogramPattern.cs" />
+    <Compile Include="Pattern\Q7HollowRectanglePattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
