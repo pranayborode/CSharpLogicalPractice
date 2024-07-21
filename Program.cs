@@ -8,21 +8,25 @@ namespace LogicalPractice
 {
 	internal class Program
 	{
-		public static void PrintPattern()
+		public static void PrintPattern(int num)
 		{
-			for(int i = 5; i>=0; i--)
+			for (int i = 1; i <= num; i++)
 			{
-				for(int j = 0; j<=i; j++)
+				for (int j = 1; j <= num - i; j++)
 				{
-                    Console.Write("* ");
-                }
-                Console.WriteLine();
-            }
+					Console.Write(" ");
+				}
+				for (int k = 1; k <= i; k++)
+				{
+					Console.Write("*");
+				}
+				Console.WriteLine();
+			}
 		}
-		
+
 		static void Main(string[] args)
 		{
-			PrintPattern();
-		}	
+			PrintPattern(5);
+		}
 	}
 }
