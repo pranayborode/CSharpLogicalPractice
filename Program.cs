@@ -8,29 +8,21 @@ namespace LogicalPractice
 {
 	internal class Program
 	{
-	
-
-		public static void CatchExceptions()
+		public static void PrintPattern()
 		{
-			try
+			for(int i = 5; i>=0; i--)
 			{
-				int[] num = { 1, 2, 3 };
-				Console.WriteLine(num[4]); // This will throw an IndexOutOfRangeException
-			}
-			catch(Exception ex) when (ex is IndexOutOfRangeException || ex is ArithmeticException)
-			{
-                Console.WriteLine("Handled IndexOutOfRangeException or ArithmeticaException");
+				for(int j = 0; j<=i; j++)
+				{
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
             }
-			catch (Exception ex)
-			{
-				Console.WriteLine($"Handled {ex.GetType()} exception");
-			}
 		}
-
+		
 		static void Main(string[] args)
 		{
-			CatchExceptions();
-		}
-			
+			PrintPattern();
+		}	
 	}
 }

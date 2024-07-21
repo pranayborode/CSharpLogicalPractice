@@ -53,6 +53,8 @@
     <Compile Include="BasicLogical\FibonacciUsingYield.cs" />
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
+    <Compile Include="Pattern\Q1PrintStar.cs" />
+    <Compile Include="Pattern\Q2PrintStar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
