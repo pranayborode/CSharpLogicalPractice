@@ -64,6 +64,7 @@
     <Compile Include="Pattern\Q5PyramidPattern.cs" />
     <Compile Include="Pattern\Q6ParallelogramPattern.cs" />
     <Compile Include="Pattern\Q7HollowRectanglePattern.cs" />
+    <Compile Include="Pattern\Q8NumberTrianglePattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

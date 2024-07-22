@@ -8,28 +8,26 @@ namespace LogicalPractice
 {
 	internal class Program
 	{
-		public static int SumOfEvenNum(int num)
+		public static void PrintPattern(int n)
 		{
-			int sum = 0;
-			for(int i = 1; i<=num; i++)
+			for(int i=1; i<=n; i++)
 			{
-				if(i%2 == 0)
+				for (int j = 1; j <= n-i; j++)
 				{
-					sum += i;
-				}
-			}
+                    Console.Write(" ");
+                }
 
-			return sum;
+				for(int j = 1; j<= i; j++)
+				{
+                    Console.Write(i+" ");
+                }
+                Console.WriteLine();
+            }
 		}
 
 		static void Main(string[] args)
 		{
-            Console.WriteLine("Enter Number");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-			int sum = SumOfEvenNum(num);
-
-            Console.WriteLine($"Sum of all Even Numbers : {sum}");
+			PrintPattern(6);
         }
 	}
 }
