@@ -57,6 +57,7 @@
     <Compile Include="Logical\PrintAllAlphabets.cs" />
     <Compile Include="Logical\SumOfAllOddNo.cs" />
     <Compile Include="Logical\SumOfEvenNo.cs" />
+    <Compile Include="Pattern\Q10NumberIncreasingReversePyramidPattern.cs" />
     <Compile Include="Pattern\Q1RightAngleTriangle.cs" />
     <Compile Include="Pattern\Q2InvertedRightAngleTriangle.cs" />
     <Compile Include="Pattern\Q3RightAngleTriangleReflection.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Pattern\Q6ParallelogramPattern.cs" />
     <Compile Include="Pattern\Q7HollowRectanglePattern.cs" />
     <Compile Include="Pattern\Q8NumberTrianglePattern.cs" />
+    <Compile Include="Pattern\Q9NumberIncreasingPyramidPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
