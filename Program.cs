@@ -10,13 +10,14 @@ namespace LogicalPractice
 	{
 		public static void PrintPattern(int n)
 		{
-			int i, j;
+			int num = 1;
 
-			for(i=n; i>=1; i--)
+			for(int i = 1; i<=n; i++)
 			{
-				for(j=1; j<=i; j++)
+				for(int j = 1;j<=i; j++)
 				{
-					Console.Write(j + " ");
+					Console.Write(num+" ");
+					num++;
 				}
                 Console.WriteLine();
             }

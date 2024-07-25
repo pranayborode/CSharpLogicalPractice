@@ -58,6 +58,7 @@
     <Compile Include="Logical\SumOfAllOddNo.cs" />
     <Compile Include="Logical\SumOfEvenNo.cs" />
     <Compile Include="Pattern\Q10NumberIncreasingReversePyramidPattern.cs" />
+    <Compile Include="Pattern\Q11NumberChangingPyramidPattern.cs" />
     <Compile Include="Pattern\Q1RightAngleTriangle.cs" />
     <Compile Include="Pattern\Q2InvertedRightAngleTriangle.cs" />
     <Compile Include="Pattern\Q3RightAngleTriangleReflection.cs" />
