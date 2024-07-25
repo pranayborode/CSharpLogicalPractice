@@ -29,9 +29,9 @@ namespace LogicalPractice.Pattern
 			}
 		}
 
-		static void Main(string[] args)
-		{
-			PrintPattern(6);
-		}
+		//static void Main(string[] args)
+		//{
+		//	PrintPattern(6);
+		//}
 	}
 }

@@ -10,29 +10,20 @@ namespace LogicalPractice.Pattern
 	{
 		public static void PrintPattern(int num)
 		{
-			for (int i = 1; i <= num; i++)
+			for (int i = 0; i < num; i++)
 			{
-				for (int j = 1; j <= num - i; j++)
+
+				for (int j = num - i; j > 1; j--)
 				{
 					Console.Write(" ");
 				}
-				for (int k = 1; k < i*2; k++)
+
+				for (int j = 0; j <= i; j++)
 				{
-					Console.Write("*");
+					Console.Write("* ");
 				}
 				Console.WriteLine();
-			}
-			for(int i= num-1; i>=1; i--)
-			{
-				for (int j = 1; j <= num - i; j++)
-				{
-					Console.Write(" ");
-				}
-				for (int k = 1; k < i * 2; k++)
-				{
-					Console.Write("*");
-				}
-				Console.WriteLine();
+
 			}
 		}
 
