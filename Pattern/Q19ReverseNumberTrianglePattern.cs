@@ -4,24 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicalPractice
+namespace LogicalPractice.Pattern
 {
-	// 18 ...25
-	internal class Program
+	internal class Q19ReverseNumberTrianglePattern
 	{
 		public static void PrintPattern(int n)
 		{
 			for (int i = 1; i <= n; i++)
 			{
-				for (int j= 1; j<i; j++)
+				for (int j = 1; j < i; j++)
 				{
 					Console.Write(" ");
 				}
-				for (int j = i; j<=n; j++)
+				for (int j = i; j <= n; j++)
 				{
-					Console.Write(j+" ");
+					Console.Write(j + " ");
 				}
-				
+
 				Console.WriteLine();
 			}
 		}
@@ -31,4 +30,9 @@ namespace LogicalPractice
 		}
 	}
 }
-
+//1 2 3 4 5 6
+// 2 3 4 5 6
+//  3 4 5 6
+//   4 5 6
+//	  5 6
+//	   6
