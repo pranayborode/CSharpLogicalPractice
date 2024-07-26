@@ -61,6 +61,8 @@
     <Compile Include="Pattern\Q11NumberChangingPyramidPattern.cs" />
     <Compile Include="Pattern\Q12ZeroOneTrianglePattern.cs" />
     <Compile Include="Pattern\Q13PalindromeTrianglePattern.cs" />
+    <Compile Include="Pattern\Q14RhombusPattern.cs" />
+    <Compile Include="Pattern\Q15ButterflyStarPattern.cs" />
     <Compile Include="Pattern\Q1RightAngleTriangle.cs" />
     <Compile Include="Pattern\Q2InvertedRightAngleTriangle.cs" />
     <Compile Include="Pattern\Q3RightAngleTriangleReflection.cs" />

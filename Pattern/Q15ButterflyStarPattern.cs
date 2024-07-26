@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicalPractice
+namespace LogicalPractice.Pattern
 {
-	//11, 15, 17, 18 ...25
-	internal class Program
+	internal class Q15ButterflyStarPattern
 	{
 		public static void PrintPattern(int n)
 		{
@@ -17,8 +16,8 @@ namespace LogicalPractice
 				{
 					Console.Write("*");
 				}
-				
-				for(int k = 1; k<=(2*(n-i)); k++)
+
+				for (int k = 1; k <= (2 * (n - i)); k++)
 				{
 					Console.Write(" ");
 				}
@@ -51,6 +50,6 @@ namespace LogicalPractice
 		static void Main(string[] args)
 		{
 			PrintPattern(6);
-        }
+		}
 	}
 }
