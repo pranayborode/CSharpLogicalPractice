@@ -33,3 +33,10 @@ namespace LogicalPractice.Pattern
 		//}
 	}
 }
+
+//      *
+//     * *
+//    * * *
+//   * * * *
+//  * * * * *
+// * * * * * *

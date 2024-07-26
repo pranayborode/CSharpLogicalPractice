@@ -6,51 +6,26 @@ using System.Threading.Tasks;
 
 namespace LogicalPractice
 {
-	//11, 15, 17, 18 ...25
+	// 15, 17, 18 ...25
 	internal class Program
 	{
-		public static void PrintPattern(int n)
+		public static void PrintPattern()
 		{
-			for (int i = 1; i <= n; i++)
+			for (int i = 1; i <= 6; i++)
 			{
 				for (int j = 1; j <= i; j++)
 				{
-					Console.Write("*");
-				}
-				
-				for(int k = 1; k<=(2*(n-i)); k++)
-				{
-					Console.Write(" ");
-				}
-
-				for (int j = 1; j <= i; j++)
-				{
-					Console.Write("*");
+					Console.Write("* ");
 				}
 				Console.WriteLine();
 			}
-			for (int i = n; i >= 1; i--)
-			{
-				for (int j = 1; j <= i; j++)
-				{
-					Console.Write("*");
-				}
 
-				for (int k = 1; k <= (2 * (n - i)); k++)
-				{
-					Console.Write(" ");
-				}
-
-				for (int j = 1; j <= i; j++)
-				{
-					Console.Write("*");
-				}
-				Console.WriteLine();
-			}
 		}
+
 		static void Main(string[] args)
 		{
-			PrintPattern(6);
-        }
+			PrintPattern();
+		}
 	}
 }
+

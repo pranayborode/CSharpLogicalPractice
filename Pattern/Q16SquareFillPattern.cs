@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace LogicalPractice.Pattern
 {
-	internal class Q2InvertedRightAngleTriangle
+	internal class Q16SquareFillPattern
 	{
-		public static void PrintPattern()
+		public static void PrintPattern(int n)
 		{
-			for (int i = 5; i >= 0; i--)
+			for (int i = 1; i <= n; i++)
 			{
-				for (int j = 0; j <= i; j++)
+				for (int j = 1; j <= n; j++)
 				{
-					Console.Write("* ");
+					Console.Write("*");
 				}
 				Console.WriteLine();
 			}
 		}
-
 		//static void Main(string[] args)
 		//{
-		//	PrintPattern();
+		//	PrintPattern(6);
 		//}
 	}
 }
 
-//******
-//*****
-//****
-//***
-//**
-//*
+//*******
+//*******
+//*******
+//*******
+//*******
+//*******
+//*******

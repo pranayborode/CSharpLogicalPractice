@@ -26,3 +26,10 @@ namespace LogicalPractice.Pattern
 		//}
 	}
 }
+
+//*
+//**
+//***
+//****
+//*****
+//******

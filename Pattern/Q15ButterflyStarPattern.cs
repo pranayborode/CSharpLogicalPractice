@@ -47,9 +47,22 @@ namespace LogicalPractice.Pattern
 				Console.WriteLine();
 			}
 		}
-		static void Main(string[] args)
-		{
-			PrintPattern(6);
-		}
+		//static void Main(string[] args)
+		//{
+		//	PrintPattern(6);
+		//}
 	}
 }
+
+//*          *
+//**        **
+//***      ***
+//****    ****
+//*****  *****
+//************
+//************
+//*****  *****
+//****    ****
+//***      ***
+//**        **
+//*          *

@@ -35,3 +35,9 @@ namespace LogicalPractice.Pattern
 		//}
 	}
 }
+//******
+//*    *
+//*    *
+//*    *
+//*    *
+//******
