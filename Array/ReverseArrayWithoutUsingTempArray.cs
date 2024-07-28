@@ -27,10 +27,10 @@ namespace LogicalPractice.Array
 				Console.Write(i + " ");
 			}
 		}
-		static void Main(string[] args)
-		{
-			int[] arr = { 3, 90, 45, 29, 37, 78 };
-			FindReverseArray(arr);
-		}
+		//static void Main(string[] args)
+		//{
+		//	int[] arr = { 3, 90, 45, 29, 37, 78 };
+		//	FindReverseArray(arr);
+		//}
 	}
 }
