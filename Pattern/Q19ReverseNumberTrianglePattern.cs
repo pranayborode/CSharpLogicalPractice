@@ -24,10 +24,10 @@ namespace LogicalPractice.Pattern
 				Console.WriteLine();
 			}
 		}
-		static void Main(string[] args)
-		{
-			PrintPattern(6);
-		}
+		//static void Main(string[] args)
+		//{
+		//	PrintPattern(6);
+		//}
 	}
 }
 //1 2 3 4 5 6

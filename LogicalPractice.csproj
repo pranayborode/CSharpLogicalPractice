@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\MaxValue.cs" />
+    <Compile Include="Array\MinValue.cs" />
+    <Compile Include="Array\MissingNumber.cs" />
+    <Compile Include="Array\ReverseArrayUsingTemporaryArray.cs" />
+    <Compile Include="Array\ReverseArrayWithoutUsingTempArray.cs" />
+    <Compile Include="Array\ReverseOrder.cs" />
     <Compile Include="BasicIfElse\AgeVoting.cs" />
     <Compile Include="BasicIfElse\BiggestNumber.cs" />
     <Compile Include="BasicIfElse\DaysName.cs" />
