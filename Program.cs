@@ -10,39 +10,24 @@ namespace LogicalPractice
 	// 18 ...25
 	internal class Program
 	{
-		public static void PrintNegativeAtStart(int[]arr)
+		public static void MaxCharacter(char[]arr)
 		{
 			int size = arr.Length;
-			for(int i = 0; i < size; i++)
+			char maxChar = arr[size - 1];
+
+			for(int i = 0; i<size; i++)
 			{
-				if (arr[i]< 0)
+				if (arr[i] > maxChar)
 				{
-					continue;
-				}
-				else
-				{
-					for(int j= size -1; j>=0 && i<j; j--)
-					{
-						if (arr[j] < 0)
-						{
-							int temp = arr[i];
-							arr[i] = arr[j];
-							arr[j] = temp;
-							break;
-						}
-					}
+					maxChar = arr[i];
 				}
 			}
-			foreach(int i in arr)
-			{
-                Console.Write(i+" ");
-            }
-		}
-		
+            Console.WriteLine("Max Cahracter is : "+maxChar);
+        }
 		static void Main(string[] args)
 		{
-			int[] arr = { 1, -2, 3, -4, 0, -5 };
-			PrintNegativeAtStart(arr);
+			char[] arr = { 'A', 'D', 'E', 'x', 'R', 'Z','p' };
+			MaxCharacter (arr);
 		}
 	}
 }

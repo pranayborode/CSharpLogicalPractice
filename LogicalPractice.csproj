@@ -48,7 +48,9 @@
     <Compile Include="Array\CommonElement.cs" />
     <Compile Include="Array\EqualityTest.cs" />
     <Compile Include="Array\FindDuplicates.cs" />
+    <Compile Include="Array\MaxCharacterArray.cs" />
     <Compile Include="Array\MaxValue.cs" />
+    <Compile Include="Array\MinCharacterArray.cs" />
     <Compile Include="Array\MinValue.cs" />
     <Compile Include="Array\MissingNumber.cs" />
     <Compile Include="Array\NegativeAtStart.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="Array\ReverseArrayUsingTemporaryArray.cs" />
     <Compile Include="Array\ReverseArrayWithoutUsingTempArray.cs" />
     <Compile Include="Array\ReverseOrder.cs" />
+    <Compile Include="Array\ShiftEvenStart.cs" />
     <Compile Include="Array\SwapArray.cs" />
     <Compile Include="BasicIfElse\AgeVoting.cs" />
     <Compile Include="BasicIfElse\BiggestNumber.cs" />
