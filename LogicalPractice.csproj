@@ -54,12 +54,15 @@
     <Compile Include="Array\MinValue.cs" />
     <Compile Include="Array\MissingNumber.cs" />
     <Compile Include="Array\NegativeAtStart.cs" />
+    <Compile Include="Array\PrintMaxMinInRow.cs" />
     <Compile Include="Array\Replace0With1.cs" />
     <Compile Include="Array\ReverseArrayUsingTemporaryArray.cs" />
     <Compile Include="Array\ReverseArrayWithoutUsingTempArray.cs" />
     <Compile Include="Array\ReverseOrder.cs" />
     <Compile Include="Array\ShiftEvenStart.cs" />
+    <Compile Include="Array\SquareNumber.cs" />
     <Compile Include="Array\SwapArray.cs" />
+    <Compile Include="Array\TableArray.cs" />
     <Compile Include="BasicIfElse\AgeVoting.cs" />
     <Compile Include="BasicIfElse\BiggestNumber.cs" />
     <Compile Include="BasicIfElse\DaysName.cs" />

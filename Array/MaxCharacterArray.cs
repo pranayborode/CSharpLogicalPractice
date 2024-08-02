@@ -24,10 +24,10 @@ namespace LogicalPractice.Array
 			}
 			Console.WriteLine("Max Cahracter is : " + maxChar);
 		}
-		static void Main(string[] args)
-		{
-			char[] arr = { 'A', 'D', 'E', 'x', 'R', 'Z', 'p' };
-			MaxCharacter(arr);
-		}
+		//static void Main(string[] args)
+		//{
+		//	char[] arr = { 'A', 'D', 'E', 'x', 'R', 'Z', 'p' };
+		//	MaxCharacter(arr);
+		//}
 	}
 }
