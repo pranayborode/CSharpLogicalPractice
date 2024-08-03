@@ -46,6 +46,7 @@
     <Compile Include="Array\AverageWithoutMinMax.cs" />
     <Compile Include="Array\CheckElements.cs" />
     <Compile Include="Array\CommonElement.cs" />
+    <Compile Include="Array\DeleteElement.cs" />
     <Compile Include="Array\EqualityTest.cs" />
     <Compile Include="Array\FindDuplicates.cs" />
     <Compile Include="Array\MaxCharacterArray.cs" />

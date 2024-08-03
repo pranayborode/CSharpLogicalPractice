@@ -28,10 +28,10 @@ namespace LogicalPractice.Array
 			}
 		}
 
-		static void Main(string[] args)
-		{
-			int[,] arr = { { 22, 31, 9 }, { 12, 25, 16 } };
-			FindRowWiseMax(arr);
-		}
+		//static void Main(string[] args)
+		//{
+		//	int[,] arr = { { 22, 31, 9 }, { 12, 25, 16 } };
+		//	FindRowWiseMax(arr);
+		//}
 	}
 }

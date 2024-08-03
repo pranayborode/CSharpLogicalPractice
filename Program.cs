@@ -10,28 +10,28 @@ namespace LogicalPractice
 	// 18 ...25
 	internal class Program
 	{
-		public static void FindRowWiseMax(int[,]arr)
+		public static void DeleteSpacificPositionArray(int[] arr)
 		{
-			int rowCount = arr.GetLength(0);
-			int colCount = arr.GetLength(1);	
-			for (int i = 0; i < rowCount; i++)
+            Console.WriteLine("Enter Position value to delete element : ");
+            int pos = Convert.ToInt32(Console.ReadLine());
+			int size = arr.Length;
+
+			for(int i = pos-1; i < size-1; i++)
 			{
-				int maxInRow = arr[i, 0];
-				for(int j = 1; j<colCount; j++ )
-				{
-					if (arr[i, j] > maxInRow)
-					{
-						maxInRow = arr[i, j];
-					}
-				}
-				Console.WriteLine($"Max Element in Row {i + 1} : {maxInRow}");
+				arr[i] = arr[i + 1];
 			}
+			size = size - 1;
+
+			for(int i = 0; i<size; i++)
+			{
+				Console.WriteLine(arr[i] +" ");
+            }
         }
 
 		static void Main(string[] args)
 		{
-			int [,]arr = { { 22, 31, 9}, { 12, 25, 16} };
-			FindRowWiseMax(arr);
+			int []arr = { 1, 2, 3, 4, 5, 6, 7, 8 };
+			DeleteSpacificPositionArray(arr);
 		}
 	}
 }
