@@ -46,6 +46,7 @@
     <Compile Include="Array\AverageWithoutMinMax.cs" />
     <Compile Include="Array\CheckElements.cs" />
     <Compile Include="Array\CommonElement.cs" />
+    <Compile Include="Array\CommonElements.cs" />
     <Compile Include="Array\DeleteElement.cs" />
     <Compile Include="Array\EqualityTest.cs" />
     <Compile Include="Array\FindDuplicates.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Array\ReverseArrayUsingTemporaryArray.cs" />
     <Compile Include="Array\ReverseArrayWithoutUsingTempArray.cs" />
     <Compile Include="Array\ReverseOrder.cs" />
+    <Compile Include="Array\SecondLarges.cs" />
     <Compile Include="Array\ShiftEvenStart.cs" />
     <Compile Include="Array\SquareNumber.cs" />
     <Compile Include="Array\SwapArray.cs" />
