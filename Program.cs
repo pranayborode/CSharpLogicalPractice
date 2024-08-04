@@ -10,29 +10,31 @@ namespace LogicalPractice
 	// 18 ...25
 	internal class Program
 	{
-		public static void SortingArray(int[] arr)
+		static void Swap<T>(ref T a, ref T b)
 		{
-			int maxArray = arr[0];
-			int secMax = 0;
-			for (int i = 0; i < arr.Length; i++)
-			{
-				if (arr[i] > maxArray)
-				{
-					secMax = maxArray;
-					maxArray = arr[i];
-				}
-				else if(secMax < arr[i] && arr[i] != maxArray)
-				{
-					secMax = arr[i];
-				}
-			}
-            Console.WriteLine("Second Max : "+secMax);
-        }
+			T temp;
+
+			temp = a;
+			a = b;
+			b = temp;
+		}
+		
 		static void Main(string[] args)
 		{
-			int[] arr = { 12, 35, 30, 45, 32,0 };
-			SortingArray(arr);
-		}
+			int a = 40, b = 80;
+            Console.WriteLine($"Befor : a = {a}, b = {b}");
+
+			Swap<int>(ref a, ref b);
+			Console.WriteLine($"After : a = {a}, b = {b}");
+
+			double c = 11, d = 22;
+			Console.WriteLine($"Befor : c = {c}, d = {d}");
+
+			Swap<double>(ref c, ref d);
+			Console.WriteLine($"After : c = {c}, d = {d}");
+
+			Console.WriteLine();
+        }
 	}
 }
 

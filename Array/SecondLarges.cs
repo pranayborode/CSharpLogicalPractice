@@ -27,10 +27,10 @@ namespace LogicalPractice.Array
 			}
 			Console.WriteLine("Second Max : " + secMax);
 		}
-		static void Main(string[] args)
-		{
-			int[] arr = { 12, 35, 30, 45, 32, 0 };
-			SortingArray(arr);
-		}
+		//static void Main(string[] args)
+		//{
+		//	int[] arr = { 12, 35, 30, 45, 32, 0 };
+		//	SortingArray(arr);
+		//}
 	}
 }
