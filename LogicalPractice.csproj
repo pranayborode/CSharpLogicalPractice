@@ -76,11 +76,13 @@
     <Compile Include="BasicLogical\FibonacciUsingYield.cs" />
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
+    <Compile Include="Generic\DictionaryEmployeeExample.cs" />
+    <Compile Include="Generic\DictionaryExample.cs" />
     <Compile Include="Logical\CountDigits.cs" />
     <Compile Include="Logical\PrintAllAlphabets.cs" />
     <Compile Include="Logical\SumOfAllOddNo.cs" />
     <Compile Include="Logical\SumOfEvenNo.cs" />
-    <Compile Include="Logical\SwapTwoNum.cs" />
+    <Compile Include="Generic\SwapTwoNum.cs" />
     <Compile Include="Pattern\Q10NumberIncreasingReversePyramidPattern.cs" />
     <Compile Include="Pattern\Q11NumberChangingPyramidPattern.cs" />
     <Compile Include="Pattern\Q12ZeroOneTrianglePattern.cs" />
