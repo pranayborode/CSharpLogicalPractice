@@ -27,21 +27,21 @@ namespace LogicalPractice.Generic
 	}
 	internal class DictionaryEmployeeExample
 	{
-		static void Main(string[] args)
-		{
-			Dictionary<string, emp> dObj = new Dictionary<string, emp>(2);
+		//static void Main(string[] args)
+		//{
+		//	Dictionary<string, emp> dObj = new Dictionary<string, emp>(2);
 
-			emp tom = new emp("tom", 2000);
-			dObj.Add("tom", tom);   // key,value
-			emp john = new emp("john", 4000);
-			dObj.Add("john", john);
+		//	emp tom = new emp("tom", 2000);
+		//	dObj.Add("tom", tom);   // key,value
+		//	emp john = new emp("john", 4000);
+		//	dObj.Add("john", john);
 
-			foreach (Object str in dObj.Values)
-			{
-				Console.WriteLine(str);
-			}
+		//	foreach (Object str in dObj.Values)
+		//	{
+		//		Console.WriteLine(str);
+		//	}
 
-			Console.ReadKey();
-		}
+		//	Console.ReadKey();
+		//}
 	}
 }
