@@ -73,7 +73,9 @@
     <Compile Include="BasicIfElse\EvenOdd.cs" />
     <Compile Include="BasicIfElse\NumOfDaysSwitch.cs" />
     <Compile Include="BasicLogical\CatchMultipleExceptions.cs" />
+    <Compile Include="BasicLogical\DelegateExample.cs" />
     <Compile Include="BasicLogical\FibonacciUsingYield.cs" />
+    <Compile Include="BasicLogical\ParamsKeywordExample.cs" />
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
     <Compile Include="Generic\DictionaryEmployeeExample.cs" />
