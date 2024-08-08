@@ -18,16 +18,16 @@ namespace LogicalPractice.BasicLogical
 		{
 			Console.WriteLine("Mul: " + a * b);
 		}
-		static void Main(string[] args)
-		{
-			Calculator calc = new Calculator(Add);
-			//calc(20, 30);
+		//static void Main(string[] args)
+		//{
+		//	Calculator calc = new Calculator(Add);
+		//	//calc(20, 30);
 
-			// multiicase delegate
-			calc += Mul;
-			calc(20, 30);
+		//	// multiicase delegate
+		//	calc += Mul;
+		//	calc(20, 30);
 
-			Console.WriteLine();
-		}
+		//	Console.WriteLine();
+		//}
 	}
 }

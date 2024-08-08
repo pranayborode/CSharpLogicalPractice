@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicalPractice
+namespace LogicalPractice.Array
 {
-	// 18 ...25
-
-	internal class Program
+	internal class MaxMinValue
 	{
 		public static void FindMaxMInValue(int[] arr)
 		{
@@ -18,19 +14,19 @@ namespace LogicalPractice
 			int maxValue = arr[0];
 			int minValue = arr[0];
 
-			for(int i = 0; i<size; i++)
+			for (int i = 0; i < size; i++)
 			{
 				if (arr[i] < minValue)
 				{
 					minValue = arr[i];
 				}
-				else if (arr[i]> maxValue)
+				else if (arr[i] > maxValue)
 				{
 					maxValue = arr[i];
 				}
 			}
 
-            Console.WriteLine($"MaxValue : {maxValue}");
+			Console.WriteLine($"MaxValue : {maxValue}");
 			Console.WriteLine($"MinValue : {minValue}");
 		}
 		static void Main(string[] args)
@@ -40,4 +36,3 @@ namespace LogicalPractice
 		}
 	}
 }
-
