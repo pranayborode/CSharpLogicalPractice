@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicalPractice
+namespace LogicalPractice.String
 {
-	// 18 ...25
-
-	internal class Program
+	internal class RemoveDuplicate
 	{
 		public static void RemoveDouplicatChar(string str)
 		{
@@ -18,11 +14,11 @@ namespace LogicalPractice
 			char[] ch = str.ToCharArray();
 			bool found;
 
-			for(int i = 0; i< str.Length; i++)
+			for (int i = 0; i < str.Length; i++)
 			{
 				found = false;
 
-				for(int j = i+1; j<str.Length; j++)
+				for (int j = i + 1; j < str.Length; j++)
 				{
 					if (ch[i] == ch[j])
 					{
@@ -30,21 +26,18 @@ namespace LogicalPractice
 						break;
 					}
 				}
-				if(found == false)
+				if (found == false)
 				{
 					s += ch[i];
 				}
 			}
-            Console.WriteLine(s);
-        }
-		
-		static void Main(string[] args)
-		{
-			string str = "Book";
-
-
-			RemoveDouplicatChar (str);
+			Console.WriteLine(s);
 		}
+
+		//static void Main(string[] args)
+		//{
+		//	string str = "Book";
+		//	RemoveDouplicatChar(str);
+		//}
 	}
 }
-

@@ -114,6 +114,9 @@
     <Compile Include="Pattern\Q9NumberIncreasingPyramidPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String\Anagram.cs" />
+    <Compile Include="String\FrequencyOfCharacters.cs" />
+    <Compile Include="String\RemoveDuplicate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
