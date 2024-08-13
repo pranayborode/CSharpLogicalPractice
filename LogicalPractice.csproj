@@ -117,6 +117,7 @@
     <Compile Include="String\Anagram.cs" />
     <Compile Include="String\FrequencyOfCharacters.cs" />
     <Compile Include="String\RemoveDuplicate.cs" />
+    <Compile Include="String\ReplaceDuplicate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
