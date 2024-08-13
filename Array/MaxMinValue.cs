@@ -29,10 +29,10 @@ namespace LogicalPractice.Array
 			Console.WriteLine($"MaxValue : {maxValue}");
 			Console.WriteLine($"MinValue : {minValue}");
 		}
-		static void Main(string[] args)
-		{
-			int[] arr = { 2, 3, 6, 9, 5, 0 };
-			FindMaxMInValue(arr);
-		}
+		//static void Main(string[] args)
+		//{
+		//	int[] arr = { 2, 3, 6, 9, 5, 0 };
+		//	FindMaxMInValue(arr);
+		//}
 	}
 }

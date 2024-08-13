@@ -86,6 +86,7 @@
     <Compile Include="Generic\DictionaryExample.cs" />
     <Compile Include="Generic\QueuesExample.cs" />
     <Compile Include="Generic\StacksExample.cs" />
+    <Compile Include="Interview\CountOfIntegers.cs" />
     <Compile Include="Logical\CountDigits.cs" />
     <Compile Include="Logical\PrintAllAlphabets.cs" />
     <Compile Include="Logical\SumOfAllOddNo.cs" />

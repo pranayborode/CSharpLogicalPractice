@@ -12,31 +12,56 @@ namespace LogicalPractice
 
 	internal class Program
 	{
-		public static void FindMaxMInValue(int[] arr)
+		
+		public static int[] CountIntegers(int n, int val, int[] arr)
 		{
-			int size = arr.Length;
-			int maxValue = arr[0];
-			int minValue = arr[0];
+			int[] counts = new int[3];
 
-			for(int i = 0; i<size; i++)
+			int smaller = 0, equal = 0, greater = 0;
+
+			for(int i = 0; i<n; i++)
 			{
-				if (arr[i] < minValue)
+				if (arr[i] < val)
 				{
-					minValue = arr[i];
+					smaller++;
 				}
-				else if (arr[i]> maxValue)
+				else if (arr[i] == val)
 				{
-					maxValue = arr[i];
+					equal++;
+				}
+				else
+				{
+					greater++;
 				}
 			}
 
-            Console.WriteLine($"MaxValue : {maxValue}");
-			Console.WriteLine($"MinValue : {minValue}");
+			counts[0] = smaller;
+			counts[1] = equal;
+			counts[2] = greater;
+
+			return counts;
 		}
+
 		static void Main(string[] args)
 		{
-			int[] arr = { 2, 3, 6, 9, 5, 0 };
-			FindMaxMInValue(arr);
+            Console.WriteLine("Enter n");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter val");
+            int val = Convert.ToInt32(Console.ReadLine());
+			int[] arr = new int[n];
+
+			for(int i =	0; i<n; i++)
+			{
+                Console.Write($"Enter {i} : ");
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+			}
+
+			int[] result = CountIntegers(n, val, arr);
+
+			foreach(int i in result)
+			{
+                Console.Write(i);
+            }
 		}
 	}
 }
