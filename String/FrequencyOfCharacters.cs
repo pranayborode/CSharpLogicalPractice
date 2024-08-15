@@ -18,7 +18,6 @@ namespace LogicalPractice.String
 				{
 					continue;
 				}
-
 				for (int j = i + 1; j < ch.Length; j++)
 				{
 					if (ch[i] == ch[j])
