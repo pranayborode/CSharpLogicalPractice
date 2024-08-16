@@ -12,30 +12,14 @@ namespace LogicalPractice
 
 	internal class Program
 	{
-		public static void RemoveDouplicatChar(string str)
+		public static void Find()
 		{
-			
-			char[] ch = str.ToCharArray();
-			
-			for(int i = 0; i< str.Length; i++)
-			{
-				for(int j = i+1; j<str.Length; j++)
-				{
-					if (ch[i] == ch[j])
-					{
-						ch[j] = '#';
-					}
-				}
-			}
-           
-			str = new string(ch);
-            Console.WriteLine(str);
-        }
+
+		}
 		
 		static void Main(string[] args)
 		{
-			string str = "Book";
-			RemoveDouplicatChar (str);
+			
 		}
 	}
 }
