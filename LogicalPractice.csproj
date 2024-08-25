@@ -118,6 +118,7 @@
     <Compile Include="String\FrequencyOfCharacters.cs" />
     <Compile Include="String\RemoveDuplicate.cs" />
     <Compile Include="String\ReplaceDuplicate.cs" />
+    <Compile Include="Struct\Product.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
