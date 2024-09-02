@@ -28,10 +28,10 @@ namespace LogicalPractice.String
 			Console.WriteLine(str);
 		}
 
-		static void Main(string[] args)
-		{
-			string str = "Book";
-			RemoveDouplicatChar(str);
-		}
+		//static void Main(string[] args)
+		//{
+		//	string str = "Book";
+		//	RemoveDouplicatChar(str);
+		//}
 	}
 }
