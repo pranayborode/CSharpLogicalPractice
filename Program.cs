@@ -14,21 +14,33 @@ namespace LogicalPractice
 	internal class Program
 	{
 		
+		public static void MergeArray(int[,]arr)
+		{
+			int totalLength = 0;
+			
+             int row = arr.GetLength(0);
+			 int col = arr.GetLength(1);
+
+			int[] singleArray = new int[row* col];
+
+			int index = 0;
+
+			for(int i= 0; i< row; i++)
+			{
+				for(int j = 0; j<col; j++)
+				{
+					singleArray[index++] = arr[i, j];	
+				}
+			}
+
+            Console.WriteLine(string.Join(",", singleArray));
+        }
 		
 		static void Main(string[] args)
 		{
-			var num = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 , 14, 15 };
+			int[,] arr = { {1, 2, 3 },{5 , 6, 7 } };
 
-			var result = num.Batch(4);
-
-			foreach (var item in result)
-			{
-				foreach(var item2 in item)
-				{
-                    Console.Write(item2 + " ");
-                }
-                Console.WriteLine();
-            }
+			MergeArray(arr);
 		}
 	}
 }
