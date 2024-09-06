@@ -13,35 +13,40 @@ namespace LogicalPractice
 
 	internal class Program
 	{
-		
-		public static void MergeArray(int[,]arr)
+
+		public static bool checkAutomorphic(int num)
 		{
-			int totalLength = 0;
-			
-             int row = arr.GetLength(0);
-			 int col = arr.GetLength(1);
 
-			int[] singleArray = new int[row* col];
+			long sq = num * num;
 
-			int index = 0;
-
-			for(int i= 0; i< row; i++)
+			while(num > 0)
 			{
-				for(int j = 0; j<col; j++)
-				{
-					singleArray[index++] = arr[i, j];	
+				if(num % 10 != sq % 10){
+					return false;
 				}
+				num /= 10;
+				sq /= 10;
 			}
+			return true;
 
-            Console.WriteLine(string.Join(",", singleArray));
         }
 		
 		static void Main(string[] args)
 		{
-			int[,] arr = { {1, 2, 3 },{5 , 6, 7 } };
 
-			MergeArray(arr);
-		}
+            Console.Write("Enter the Number: ");
+			int num = Convert.ToInt32(Console.ReadLine());
+
+			if (checkAutomorphic(num))
+			{
+                Console.WriteLine("Automorphic");
+			}
+			else
+			{
+                Console.WriteLine("Not Automorphic");
+            }
+
+        }
 	}
 }
 

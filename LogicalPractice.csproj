@@ -90,8 +90,13 @@
     <Compile Include="Generic\DictionaryExample.cs" />
     <Compile Include="Generic\QueuesExample.cs" />
     <Compile Include="Generic\StacksExample.cs" />
+    <Compile Include="Interview\AutomorphicNumber.cs" />
     <Compile Include="Interview\CountOfIntegers.cs" />
+    <Compile Include="Interview\FrequencyOfDigits.cs" />
+    <Compile Include="Interview\JoinArray.cs" />
     <Compile Include="Interview\Palandrome.cs" />
+    <Compile Include="Interview\PrimeNumbers.cs" />
+    <Compile Include="Interview\SumOfFactorialNumber.cs" />
     <Compile Include="Logical\CountDigits.cs" />
     <Compile Include="Logical\PrintAllAlphabets.cs" />
     <Compile Include="Logical\SumOfAllOddNo.cs" />
