@@ -1,4 +1,6 @@
-﻿using MoreLinq;
+﻿using LogicalPractice.Indexers;
+using LogicalPractice.Interview;
+using MoreLinq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,7 +20,15 @@ namespace LogicalPractice
        
         static void Main(string[] args)
         {
-           
+           Student s = new Student();
+
+            s[0] = "Pranay";
+            s[1] = "Gaurav";
+            s[2] = "Rahul";
+            s[3] = "Saurabh";
+            s[4] = "Ganesh";
+
+            Console.WriteLine(s[2]);
         }
     }
 }
