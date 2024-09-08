@@ -26,21 +26,21 @@ namespace LogicalPractice.Interview
 
         }
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            Console.Write("Enter the Number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+        //    Console.Write("Enter the Number: ");
+        //    int num = Convert.ToInt32(Console.ReadLine());
 
-            if (checkAutomorphic(num))
-            {
-                Console.WriteLine("Automorphic");
-            }
-            else
-            {
-                Console.WriteLine("Not Automorphic");
-            }
+        //    if (checkAutomorphic(num))
+        //    {
+        //        Console.WriteLine("Automorphic");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Not Automorphic");
+        //    }
 
-        }
+        //}
     }
 }

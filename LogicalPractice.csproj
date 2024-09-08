@@ -86,6 +86,11 @@
     <Compile Include="BasicLogical\Q1PrintEvenNumbers.cs" />
     <Compile Include="BasicLogical\Q3DoWhileLoop.cs" />
     <Compile Include="Batch\EnumerableExtension.cs" />
+    <Compile Include="Collection\GenericDictionary.cs" />
+    <Compile Include="Collection\GenericListEx.cs" />
+    <Compile Include="Collection\GenericQueue.cs" />
+    <Compile Include="Collection\GenericSortedList.cs" />
+    <Compile Include="Collection\GenericStack.cs" />
     <Compile Include="Generic\DictionaryEmployeeExample.cs" />
     <Compile Include="Generic\DictionaryExample.cs" />
     <Compile Include="Generic\QueuesExample.cs" />
