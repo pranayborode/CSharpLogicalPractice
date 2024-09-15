@@ -106,7 +106,9 @@
     <Compile Include="Interview\PrintWithoutUsingLoop.cs" />
     <Compile Include="Interview\StructExample.cs" />
     <Compile Include="Interview\SumOfFactorialNumber.cs" />
+    <Compile Include="Logical\AverageWithoutMinMax.cs" />
     <Compile Include="Logical\CountDigits.cs" />
+    <Compile Include="Logical\FindMissingNumber.cs" />
     <Compile Include="Logical\PrintAllAlphabets.cs" />
     <Compile Include="Logical\SumOfAllOddNo.cs" />
     <Compile Include="Logical\SumOfEvenNo.cs" />
